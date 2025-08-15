@@ -11,6 +11,11 @@ const urlsToCache = [
   '/index.tsx',
   '/App.tsx',
   
+  // Local Vendor Dependencies
+  '/vendor/react.js',
+  '/vendor/react-dom.js',
+  '/vendor/react-jsx-runtime.js',
+
   // App Logic
   '/types.ts',
   '/constants.ts',
@@ -29,9 +34,6 @@ const urlsToCache = [
   // External Dependencies
   'https://cdn.tailwindcss.com',
   'https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap',
-  'https://esm.sh/react@^19.1.1',
-  'https://esm.sh/react-dom@^19.1.1/client',
-  'https://esm.sh/react@^19.1.1/jsx-runtime'
 ];
 
 // Install event: cache all the assets
