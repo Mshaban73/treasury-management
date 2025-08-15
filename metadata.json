@@ -1,0 +1,5 @@
+{
+  "name": "Treasury Management System",
+  "description": "A modern, intuitive web application for managing cash flow, transactions, and daily cash counts with role-based access control. Built with React and Tailwind CSS.",
+  "requestFramePermissions": []
+}
