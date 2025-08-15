@@ -196,7 +196,7 @@ const TransactionsView: React.FC = () => {
                                             <button onClick={() => handleDelete(t.id)} className="text-red-400 hover:text-red-300"><DeleteIcon /></button>
                                         </td>
                                     )}
-                                tr>
+                                </tr>
                             ))}
                              {transactionsWithBalance.length === 0 && (
                                 <tr className="bg-gray-800">
